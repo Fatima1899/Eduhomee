@@ -1,0 +1,47 @@
+﻿@model Bio
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/AdminF/Views/Shared/_AdminLayout.cshtml";
+}
+
+ <div class="container">
+        <div class="row">
+            <form class="forms-sample" method="post">
+                    <div class="form-group">
+                      <label asp-for="Logo"></label>
+                      <input asp-for="Logo" class="form-control" placeholder="Logo">
+                      <span asp-validation-for="Logo" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                      <label asp-for="Number"></label>
+                      <input asp-for="Number" class="form-control" placeholder="Number">
+                      <span asp-validation-for="Number" class="text-danger"></span>
+                    </div>
+                     <div class="form-group">
+                      <label asp-for="Vcontact"></label>
+                      <input asp-for="Vcontact" class="form-control" placeholder="Vcontact">
+                      <span asp-validation-for="Vcontact" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                      <label asp-for="Twitter"></label>
+                      <input asp-for="Twitter" class="form-control" placeholder="Twitter" >
+                      <span asp-validation-for="Twitter" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                      <label asp-for="Facebook"></label>
+                      <input asp-for="Facebook" class="form-control" placeholder="Facebook" >
+                      <span asp-validation-for="Facebook" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                      <label asp-for="Pinterest"></label>
+                      <input asp-for="Pinterest" class="form-control" placeholder="Pinterest" >
+                      <span asp-validation-for="Pinterest" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Create</button>
+                  </form>
+        </div>
+    </div>
+ 
+
+
+

@@ -19,7 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Shared\Components\footer\" />
+    <Folder Include="Areas\AdminF\Data\" />
+    <Folder Include="Areas\AdminF\Models\" />
   </ItemGroup>
 
 </Project>

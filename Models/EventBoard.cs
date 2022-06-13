@@ -1,4 +1,4 @@
-﻿namespace Eduhomee.Models
+﻿ namespace Eduhomee.Models
 {
     public class EventBoard
     {

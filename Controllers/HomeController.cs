@@ -22,6 +22,7 @@ namespace Eduhomee.Controllers
             homeVM.engineerings = _context.engineerings.ToList();
             homeVM.courses = _context.courses.ToList();
             homeVM.events = _context.events.ToList();
+            homeVM.bios = _context.bios.ToList();
             return View(homeVM);
         }
     }

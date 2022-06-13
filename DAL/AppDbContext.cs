@@ -16,5 +16,6 @@ namespace Eduhomee.DAL
         public DbSet<Engineering> engineerings { get; set; }
         public DbSet<Course> courses { get; set; }
         public DbSet<Event> events { get; set; }
+        public DbSet<Bio> bios { get; set; }
     }
 }

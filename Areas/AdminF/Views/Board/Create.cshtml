@@ -1,0 +1,30 @@
+﻿@model Board
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/AdminF/Views/Shared/_AdminLayout.cshtml";
+}
+
+ <div class="container">
+        <div class="row">
+            <form class="forms-sample" method="post">
+                    <div class="form-group">
+                      <label asp-for="Description"></label>
+                      <input asp-for="Description" class="form-control" placeholder="Description">
+                      <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                      <label asp-for="Title"></label>
+                      <input asp-for="Title" class="form-control" placeholder="Title">
+                      <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+                     <div class="form-group">
+                      <label asp-for="Date"></label>
+                      <input asp-for="Date" class="form-control" placeholder="Date">
+                      <span asp-validation-for="Date" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Create</button>
+                  </form>
+        </div>
+    </div>
+ 
+

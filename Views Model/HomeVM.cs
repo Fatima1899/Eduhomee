@@ -11,6 +11,7 @@ namespace Eduhomee.Views_Model
             public IEnumerable<Engineering> engineerings { get; set; }
             public IEnumerable<Course> courses { get; set; }
             public IEnumerable<Event> events { get; set; }
+            public IEnumerable<Bio> bios { get; set; }
 
 
     }
